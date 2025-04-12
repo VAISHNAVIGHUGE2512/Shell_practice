@@ -1,0 +1,5 @@
+Run on terminal "crontab -e"
+and then enter their below line
+minute hour month year day /path/to/your/script | mail -s "Connectivity status"  mail-id
+
+minute hour month year day /path/to/your/script > ping-output

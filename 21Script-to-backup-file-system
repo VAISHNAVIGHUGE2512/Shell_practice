@@ -1,0 +1,10 @@
+Script to Backup file System
+
+1.Create backup of /etc and /var directories using tar command
+2.Compress the backup .tar file using gzip command
+3.Write a script to automate backup
+
+tar -cvf /tmp/backup.tar /etc /var   #The /tmp directory in Linux is used for storing temporary files that are created by programs or system processes. These files are usually non-essential and may be automatically deleted after a reboot or after they are no longer needed.
+
+
+gzip /tmp/backup.tar

@@ -1,0 +1,7 @@
+We can get exit code by running "echo $?" their are 255 codes except o all are error
+
+
+0 = Ok or Successful
+1 = Minor Problem
+2 = Serious trouble
+3-255 = everything else
